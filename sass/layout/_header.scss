@@ -10,4 +10,12 @@
     display: flex;
     align-items: center;
   }
+
+  & .current {
+    color: var(--accent-color);
+  }
+}
+
+.portfolio-header {
+  border-bottom: 1px solid #ececec;
 }
