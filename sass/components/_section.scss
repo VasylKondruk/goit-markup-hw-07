@@ -1,10 +1,22 @@
 .section {
-  max-width: 1600px;
   margin: 0 auto;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  // padding-right: 15px;
+  // padding-left: 15px;
+}
 
-  &-title {
+.section-title {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.269;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+@media screen and (min-width: 1200px) {
+  .section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.667;
